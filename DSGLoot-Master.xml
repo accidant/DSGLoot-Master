@@ -302,14 +302,14 @@
 			</ScrollFrame>
 		</Frames>
 		<Scripts>
-			<OnLoad>
-				<!--self:Show()
+			<!--<OnLoad>
+				
 				print(GetContainerItemLink(3,14));
-				print(GetContainerItemLink(3,13));-->
-			</OnLoad>
-			<!--<OnLoad function="LootHistoryFrame_OnLoad"/>
-			<OnEvent function="LootHistoryFrame_OnEvent"/>
-			<OnHide function="LootHistoryFrame_OnHide"/>-->
+				print(GetContainerItemLink(3,13));
+			</OnLoad>-->
+			<OnLoad function="DSGLootMaster_OnLoad"/>
+			<OnEvent function="DSGLootMaster_OnEvent"/>
+			<OnHide function="LootHistoryFrame_OnHide"/>
 		</Scripts>
 	</Frame>
 	<Frame name="DSGLootDropDown" inherits="UIDropDownMenuTemplate" hidden="true"><!-- LootHistoryDropDown -->
