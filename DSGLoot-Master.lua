@@ -1,7 +1,5 @@
 
 function DSGLootMaster_OnLoad(self)
-	print(GetContainerItemLink(3,14));
-	print(GetContainerItemLink(3,13));
 	DSGLootMaster_FullUpdate(self)
 	self:Show();
 end
