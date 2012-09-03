@@ -1,0 +1,9 @@
+## Interface: 50001
+## Title: DSGLoot |cffb43104Master|r
+## Notes: An Addon to support Lootmasters to share loot with the Lootsystem powerd by "Der schmale Grat"| Dun'Murogh - EU
+## Author: Accidant | Oridiu
+## X-Website: http://der-schmale-grat.forumieren.com
+## SavedVariables: LootDB, DSGLootMasterConfig
+## Version: 0.9a
+Localization.lua
+DSGLoot-Master.xml
