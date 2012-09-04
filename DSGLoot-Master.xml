@@ -105,8 +105,7 @@
 				</Anchors>
 				<Scripts>
 					<OnClick>
-						print('ToggleFrame');
-						<!--LootHistoryFrame_ToggleRollExpanded(LootHistoryFrame, self:GetParent().rollID);-->
+						DSGLootMaster_ToggleRollExpanded(DSGLootMasterFrame, self:GetParent().rollId);
 					</OnClick>
 				</Scripts>
 				<NormalTexture file="Interface\Buttons\UI-MinusButton-UP"/>
